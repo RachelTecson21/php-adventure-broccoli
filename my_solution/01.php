@@ -3,11 +3,11 @@
 -->
 
 <?php
-    $sample_v = ['A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u'];
+     $sample_v = ['A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u'];
     $character = "l";
 
         if (in_array(strtolower($character), $sample_v))
-        echo $character.", the character you entered, is a vowel.";
+            echo $character.", the character you entered, is a vowel.";
         else
-        echo $character.", the character you entered, is a consonant.";
+            echo $character.", the character you entered, is a consonant.";
 ?>

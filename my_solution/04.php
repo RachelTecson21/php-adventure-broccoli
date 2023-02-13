@@ -10,7 +10,7 @@
             $sum += $num[$i];
         }
 
-        return $sum;
+            return $sum;
 }
 
         $num = "123456789";

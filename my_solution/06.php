@@ -6,7 +6,7 @@
     $n = 6; 
         echo "n = " . $n . "\n";
 
-        echo "<br><br>";
+            echo "<br><br>";
     
         $count = 1;
             for ($i = $n; $i > 0; $i--) 
