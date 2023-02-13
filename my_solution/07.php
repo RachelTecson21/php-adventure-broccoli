@@ -18,7 +18,7 @@
 
         }
 
-        $array = array("Rachel", "Tecson");
+        $array = array("Nayeon", "Jeongyeon", "Momo", "Sana", "Jihyo", "Mina", "Dahyun", "Chaeyoung", "Tzuyu");
 
         echo Lstring($array);
 

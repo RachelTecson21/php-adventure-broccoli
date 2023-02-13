@@ -5,7 +5,7 @@
  <?php
 
 
-    $string = "Rachel Tecson "; 
+    $string = "Rachel Tecson"; 
 
         $lenght = str_word_count($string);
 

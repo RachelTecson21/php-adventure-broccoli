@@ -2,28 +2,11 @@
     Write a program that takes a string as input and outputs the string with all vowels removed.
  -->
 
-  <html><body>
-<form action="09.php" method="GET">
-            <div>
-                <label>enter word</label>
-                <input type="text" name="str" default=" ">
-            </div>
+  <?php
 
-                <input type="submit" >
-        </form>
+        $samp_string = "Lim Nayeon, Yoo Jeongyeon, Hirai Momo, Minatozaki Sana, Park Jihyo, Kim Dahyun, Son Chaeyoung, Chou Tzuyu";
+        
+        $trans = array("A" => "","a"=>"","E"=>"","e"=>"","I"=>"", "i" => "","O"=>"","o"=>"","U"=>"","u"=>"");
 
-
-        </body>
-</html> 
-
-<?php
-
-    function rem($input) {
-        $vowels = array("a", "e", "i", "o", "u");
-        $output = str_replace($vowels, "",  strtolower($input));
-        return $output;
-        }
-
-    echo rem($_GET["str"]);
-
+        echo strtr($samp_string, $trans);
 ?>
