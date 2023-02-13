@@ -5,7 +5,7 @@
 <?php
         $string_input = "There's a people in here.";
 
-        foreach (count_chars($string_input, 1) as $i => $freq) {
+            foreach (count_chars($string_input, 1) as $i => $freq) {
             echo "There were $freq instance(s) of \"" , chr($i) , "\" in the string.<br>";
             }
 ?>

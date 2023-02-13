@@ -5,9 +5,9 @@
 <?php
 
     function password_generate($chars) {
-      $data = '09063453002RACHELTECSONmakiiithimehl@#$!%^&*102015';
-        return substr(str_shuffle($data), 0, $chars);
-
-}
-          echo password_generate(10)."\n";
+        $data = '09063453002RACHELTECSONmakiiithimehl@#$!%^&*102015';
+            return substr(str_shuffle($data), 0, $chars);
+            }
+            
+                echo password_generate(10)."\n";
 ?>

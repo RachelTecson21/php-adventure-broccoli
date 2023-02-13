@@ -7,13 +7,13 @@
 
     $array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-    $length = count($array);
+        $length = count($array);
 
-    $lenght2 = $length / 2;
+            $lenght2 = $length / 2;
 
-    $median_index = (int) $lenght2;
+                $median_index = (int) $lenght2;
 
-    $median = $array[$median_index];
+                    $median = $array[$median_index];
 
-        echo $median;  
+                        echo $median;  
 ?>

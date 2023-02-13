@@ -3,7 +3,7 @@
 -->
 
 <?php
-    function chk_if_Palindrome($samp_string) {
+     function chk_if_Palindrome($samp_string) {
         $o = 0;
         $s = strlen($samp_string) - 1;
         $ehl = 0;

@@ -14,5 +14,5 @@
 }
 
         $num = "123456789";
-        echo sum($num);
+            echo sum($num);
 ?>

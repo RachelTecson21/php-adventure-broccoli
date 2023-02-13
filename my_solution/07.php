@@ -20,6 +20,6 @@
 
         $array = array("Nayeon", "Jeongyeon", "Momo", "Sana", "Jihyo", "Mina", "Dahyun", "Chaeyoung", "Tzuyu");
 
-        echo Lstring($array);
+                echo Lstring($array);
 
 ?> 

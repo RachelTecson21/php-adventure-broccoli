@@ -4,10 +4,10 @@
 
 <?php
 
-        $array = array(1, 5, 9, 7, 15, 12, 19);
+        $array = array(1, 5, 9, 7, 15, 12, 19, 17, 25);
 
-        $average = array_sum($array) / count($array);
+            $average = array_sum($array) / count($array);
 
-    echo $average;
+                echo $average;
 
 ?>

@@ -6,7 +6,7 @@
 
         $samp_string = "Lim Nayeon, Yoo Jeongyeon, Hirai Momo, Minatozaki Sana, Park Jihyo, Kim Dahyun, Son Chaeyoung, Chou Tzuyu";
         
-        $trans = array("A" => "","a"=>"","E"=>"","e"=>"","I"=>"", "i" => "","O"=>"","o"=>"","U"=>"","u"=>"");
+            $trans = array("A" => "","a"=>"","E"=>"","e"=>"","I"=>"", "i" => "","O"=>"","o"=>"","U"=>"","u"=>"");
 
-        echo strtr($samp_string, $trans);
+                 echo strtr($samp_string, $trans);
 ?>

@@ -9,5 +9,5 @@
 
         $lenght = str_word_count($string);
 
-    echo $lenght; 
+             echo $lenght; 
 ?>
